@@ -1,0 +1,17 @@
+﻿<Window x:Class="Разработка_информационной_системы_по_учету_ремонта.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Разработка_информационной_системы_по_учету_ремонта"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800">
+    <Grid>
+        <Label Content="Авторизация" HorizontalAlignment="Center" Margin="0,128,0,0" VerticalAlignment="Top"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="169,169,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.516,0.488"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="161,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Login" HorizontalAlignment="Center" Margin="0,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329"/>
+        <Button Click="Button_Click" Content="Войти" HorizontalAlignment="Left" Margin="360,276,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.087,2.221"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Center" Margin="0,221,0,0" VerticalAlignment="Top" Width="329"/>
+    </Grid>
+</Window>

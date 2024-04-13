@@ -1,0 +1,18 @@
+﻿<Window x:Class="Разработка_информационной_системы_по_учету_ремонта.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Разработка_информационной_системы_по_учету_ремонта"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="792">
+            <MenuItem Click="TechnicView_Click" Name="TechnicView" Background="AliceBlue" Header="Техника"/>
+            <MenuItem Click="TechnicAdd_Click" Background="Aqua" Header="Добавление техники"/>
+            <MenuItem Click="ClientsView_Click" Background="Azure" Header="Просмотр клиентов"/>
+            <MenuItem Click="ClientsViewAdd_Click" Background="Bisque" Header="Добавление клиентов"/>
+        </Menu>
+        <Frame Name="frame" Content="frame" HorizontalAlignment="Left" Margin="0,18,0,0" VerticalAlignment="Top" Width="792" Source="/Разработка информационной системы по учёту ремонта;/Просмотр клиентов.xaml"/>
+    </Grid>
+</Window>
